@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin:0;
+
+    padding:0;
+
+}
+
+
+.app-container {
+
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+
+.body-container {
+
+    display:flex;
+
+    flex:1;
+
+    align-items:stretch;
+
+}
+
+
+
+.content-area {
+
+    flex:1;
+
+    padding:25px;
+
+    background:#f5f6fa;
+
+}
